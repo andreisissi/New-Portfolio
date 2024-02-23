@@ -10,17 +10,17 @@ Grandes telas: acima de 1200px
 
    /* -------------  NAV  ------------- */
 
-.container_nav_footer {
+.nav {
    flex-direction: row;
    justify-content: space-between;
    padding: 0 2.5rem;
 }
 
-.container_nav_footer h1 {
+.nav__h1 {
    font-size: 2rem;
 }
 
-.container_nav_footer ul {
+.nav__ul {
    display: flex;
    gap: 2rem;
    font-size: 1.5rem;
@@ -29,7 +29,7 @@ Grandes telas: acima de 1200px
 
 /* -------------  PROFILE  ------------- */
 
-.container_foto {
+.profileSection__imgContainer {
    position: absolute;
    background: #1c181c;
    width: 20rem;
@@ -38,18 +38,18 @@ Grandes telas: acima de 1200px
    right: 0;
 }
 
-.container_foto img {
+.profileSection__imgContainer img {
    position: relative;
    width: 20rem;
    margin-top: 10rem;
 }
 
-.container_profile {
+.profileSection__apresentacaoContainer {
    text-align: left;
    margin-left: 2.5rem;
 }
 
-.container_profile h2 {
+.apresentacaoContainer__h2 {
    font-size: 3rem;
 }
 
@@ -61,7 +61,7 @@ Grandes telas: acima de 1200px
 
 /* -------------  EXPERIENCES ------------- */
 
-#experiences {
+.experiencesSection {
    display: flex;
    flex-wrap: wrap;
    padding: 3rem 0;
@@ -69,49 +69,68 @@ Grandes telas: acima de 1200px
    margin: auto;
 }
 
-.div_experiences {
+.experiencesSection__experiencesContainer {
    font-size: 50px;
    width: 300px;
    margin: 20px 0;
    text-align: left;
 }
 
-.div_experiences i {
+.experiencesSection__experiencesContainer i {
    font-size: 35px;
 }
 /* -------------  PROJECTS  ------------- */
 
-#projects {
+.projectsSection {
    font-size: 40px;
    display: flex;
    flex-wrap: wrap;
 }
 
-#projects h2 {
+.projectsSection h2 {
    width: 100%;
 }
 
-.container_projetcs{
+.projectsSection__projectsContainer{
    width: 50%;
 }
 
-.container_projetcs p {
+.projectsSection__projectsContainer p {
    font-size: 20px;
 }
 
 /* -------------  CONTACT  ------------- */
 
-#contact h2 {
+.contactSection__textContato h2 {
    font-size: 60px;
 }
 
-.container_input{
+.containerForm__inputContainer{
    width: 75%;
    margin: auto;
 }
 
-.input_contact {
+.inputContainer__input {
    margin-bottom: 3rem;
+}
+
+/* -------------  FOOTER  ------------- */
+
+.contactSection__footer {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 2.5rem;
+}
+
+.footer__h1 {
+   font-size: 2rem;
+}
+
+.footer__ul {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+   margin-right: 4rem;
 }
 
 }
@@ -120,18 +139,18 @@ Grandes telas: acima de 1200px
 
       /* -------------  NAV  ------------- */
 
-.container_nav_footer {
+.nav {
    flex-direction: row;
    justify-content: space-between;
    padding: 0 5.5rem;
    width: 100%;
 }
 
-.container_nav_footer h1 {
+.nav__h1 {
    font-size: 1.5rem;
 }
 
-.container_nav_footer ul {
+.nav__ul {
    display: flex;
    gap: 2rem;
    font-size: 1.5rem;
@@ -140,11 +159,11 @@ Grandes telas: acima de 1200px
 
 /* -------------  PROFILE  ------------- */
 
-#profile {
+.profileSection {
    margin: 0 5.5rem;
 }
 
-.container_foto {
+.profileSection__imgContainer {
    position: absolute;
    background: #1c181c;
    width: 20rem;
@@ -153,24 +172,24 @@ Grandes telas: acima de 1200px
    right: 5.5rem;
 }
 
-.container_foto img {
+.profileSection__imgContainer img {
    position: relative;
    width: 20rem;
    margin-top: 10rem;
 }
 
-.container_profile {
+.profileSection__apresentacaoContainer {
    text-align: left;
    margin: 3rem 0 ;
 }
 
-.container_profile h2 {
+.apresentacaoContainer__h2 {
    font-size: 4.2rem;
    line-height: 70px;
    margin-bottom: 3rem;
 }
 
-.container_profile p {
+.apresentacaoContainer__sobreMim {
    letter-spacing: 1px;
 }
 
@@ -182,34 +201,34 @@ Grandes telas: acima de 1200px
 
 /* -------------  EXPERIENCES ------------- */
 
-#experiences {
+.experiencesSection {
    display: flex;
    padding: 3rem 0;
    margin: 0 5.5rem;
    justify-content: center;
 }
 
-.div_experiences {
+.experiencesSection__experiencesContainer {
    font-size: 40px;
    width: 220px;
    margin: 20px 0;
    text-align: center;
 }
 
-.div_experiences i {
+.experiencesSection__experiencesContainer i {
    font-size: 2rem;
 }
 
 /* -------------  PROJECTS  ------------- */
 
-#projects {
+.projectsSection {
    display: flex;
    flex-wrap: wrap;
    margin: 3rem 5.5rem;
    font-size: 35px;
 }
 
-#projects h2 {
+.projectsSection h2 {
    width: 100%;
 }
 
@@ -218,47 +237,47 @@ Grandes telas: acima de 1200px
    margin: 20px 10px;
 }
 
-.container_projetcs img {
+.projectsSection__projectsContaine img {
    width: 100%;
    border-radius: 1px;
 }
 
-.container_projetcs p {
+.projectsSection__projectsContainer p {
    font-size: 25px;
 }
 
-.container_projetcs span {
+.projectsSection__containerSpan span {
    margin-bottom: 5px;
 }
 
-.container_projetcs a {
+.projectsSection a {
    margin: 0;
 }
 
 /* -------------  CONTACT  ------------- */
 
-#contact {
+.contactSection {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    width: 100%;
 }
 
-.container_h2_contato {
+.contactSection__textContato {
    width: 40%;
    margin-left: 5.5rem;
    display: flex;
    flex-wrap: wrap;
 }
 
-#contact h2 {
+.contactSection__textContato h2 {
    font-size: 55px;
    height: 20%;
    margin: 40px 0 0 0;
    padding: 15px 0;
 }
 
-#contact p {
+.contactSection__textContato p {
    font-size: 15px;
    text-align: left;
    margin: 15px 0 0 0;
@@ -266,9 +285,29 @@ Grandes telas: acima de 1200px
    padding-bottom: 200px;
 }
 
-.container_form {
+.contactSection__containerForm {
    width: 40%;
    margin: 2.5rem 0 0 4rem;
+}
+
+/* -------------  FOOTER  ------------- */
+
+.contactSection__footer {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 5.5rem;
+   width: 100%;
+}
+
+.footer__h1 {
+   font-size: 1.5rem;
+}
+
+.footer__ul {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+   margin-right: 4rem;
 }
 
 }
@@ -276,18 +315,18 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 1200px) {  /* GRANDES TELAS */
          /* -------------  NAV  ------------- */
 
-.container_nav_footer {
+.nav {
    flex-direction: row;
    justify-content: space-between;
    padding: 0 10rem;
    width: 100%;
 }
 
-.container_nav_footer h1 {
+.nav__h1 {
    font-size: 2rem;
 }
 
-.container_nav_footer ul {
+.nav__ul {
    display: flex;
    gap: 2rem;
    font-size: 1.5rem;
@@ -296,11 +335,11 @@ Grandes telas: acima de 1200px
 
 /* -------------  PROFILE  ------------- */
 
-#profile {
+.profileSection {
    margin: 0 10rem;
 }
 
-.container_foto {
+.profileSection__imgContainer {
    position: absolute;
    background: #1c181c;
    width: 20rem;
@@ -309,24 +348,24 @@ Grandes telas: acima de 1200px
    right: 12rem;
 }
 
-.container_foto img {
+.profileSection__imgContainer img {
    position: relative;
    width: 20rem;
    margin-top: 10rem;
 }
 
-.container_profile {
+.profileSection__apresentacaoContainer {
    text-align: left;
    margin: 2rem 0 ;
 }
 
-.container_profile h2 {
+.apresentacaoContainer__h2 {
    font-size: 4.5em;
    line-height: 70px;
    margin-bottom: 3rem;
 }
 
-.container_profile p {
+.apresentacaoContainer__sobreMim {
    font-size: 20px;
 }
 
@@ -338,7 +377,7 @@ Grandes telas: acima de 1200px
 
 /* -------------  EXPERIENCES ------------- */
 
-#experiences {
+.experiencesSection {
    display: flex;
    justify-content: center;
    gap: 70px;
@@ -348,20 +387,20 @@ Grandes telas: acima de 1200px
    width: 70%;
 }
 
-.div_experiences {
+.experiencesSection__experiencesContainer {
    font-size: 50px;
    width: 250px;
    margin: 20px 0;
    text-align: center;
 }
 
-.div_experiences i {
+.experiencesSection__experiencesContainer i {
    font-size: 2rem;
 }
 
 /* -------------  PROJECTS  ------------- */
 
-#projects {
+.projectsSection {
    display: flex;
    flex-wrap: wrap;
    margin: auto;
@@ -370,37 +409,37 @@ Grandes telas: acima de 1200px
    padding: 50px 0;
 }
 
-#projects h2 {
+.projectsSection h2 {
    width: 100%;
    margin-left: 2.5rem;
 }
 
-.container_projetcs{
+.projectsSection__projectsContainer{
    width: 45%;
    margin: auto;
    padding-top: 5rem;
 }
 
-.container_projetcs img {
+.projectsSection__projectsContainer img {
    width: 100%;
    border-radius: 5px;
 }
 
-.container_projetcs p {
+.projectsSection__projectsContainer p {
    font-size: 30px;
 }
 
-.container_projetcs span {
+.projectsSection__containerSpan span {
    margin-bottom: 5px;
 }
 
-.container_projetcs a {
+.projectsSection a {
    font-size: 20px;
 }
 
 /* -------------  CONTACT  ------------- */
 
-#contact {
+.contactSection {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -408,21 +447,21 @@ Grandes telas: acima de 1200px
    justify-content: center;
 }
 
-.container_h2_contato {
+.contactSection__textContato {
    display: flex;
    flex-wrap: wrap;
    width: max-content;
    width: 35%;
 }
 
-#contact h2 {
+.contactSection__textContato h2 {
    font-size: 70px;
    height: 20%;
    margin: 40px 0 0 0;
    padding: 15px 0;
 }
 
-#contact p {
+.contactSection__textContato p {
    font-size: 15px;
    text-align: left;
    margin: 15px 0 0 0;
@@ -430,9 +469,29 @@ Grandes telas: acima de 1200px
    padding-bottom: 200px;
 }
 
-.container_form {
+.contactSection__containerForm {
   width: 35%;
   margin-top: 2.5rem;
+}
+
+/* -------------  FOOTER ------------- */
+
+.contactSection__footer {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 10rem;
+   width: 100%;
+}
+
+.footer__h1 {
+   font-size: 2rem;
+}
+
+.footer__ul {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+   margin-right: 6rem;
 }
 
 }
