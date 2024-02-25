@@ -207,6 +207,7 @@ body {
    border-bottom: 2px solid var(--border-color);
 }
 
+/* comportamento das labels com input em foco e com valor */
 .inputContainer__input:focus ~ label,
 .inputContainer__input:valid ~ label {
    transform: translateY(-20px);
