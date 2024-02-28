@@ -82,6 +82,12 @@ body {
    letter-spacing: 5px;
 }
 
+.profileSection__apresentacaoContainer a:hover,
+.projectsSection__projectsContainer a:hover,
+.contactSection button:hover {
+   color: var(--gray);
+} 
+
 .linha_hr {
    width: 90%;
    margin: auto;
@@ -214,6 +220,11 @@ body {
    transition: ease-in .3s;
    font-size: 13px;
    color: var(--border-color);
+}
+
+.inputContainer__input--message {
+   resize: vertical;
+   height: 75px;
 }
 
 .contactSection button {
