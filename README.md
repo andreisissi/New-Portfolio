@@ -23,7 +23,7 @@
 
 *Deploy:*
 
-<a href="https://andreisissi.github.io/New-Portfolio/index.html" target="_blank">Clique para visualizar o projeto<a/>
+<a href="https://andreisissi.github.io/New-Portfolio/index.html" target="_blank" rel="noopener">Clique para visualizar o projeto<a/>
 
 *Documentação*
 
