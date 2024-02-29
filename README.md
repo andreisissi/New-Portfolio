@@ -23,9 +23,9 @@
 
 *Deploy:*
 
-<a href="https://andreisissi.github.io/New-Portfolio/index.html" target="_blank" rel="noopener">Clique para visualizar o projeto<a/>
+<a href="https://andreisissi.github.io/New-Portfolio/index.html" target="_blank" rel="noreferrer">Clique para visualizar o projeto<a/>
 
 *Documentação*
 
-<a href="https://clover-scorpio-ec1.notion.site/Documenta-o-50865fa8aa2e43019f6dc1d374672858" target="_blank">Clique aqui para ler a documentação<a/>
+<a href="https://clover-scorpio-ec1.notion.site/Documenta-o-50865fa8aa2e43019f6dc1d374672858" target="_blank" rel="noreferrer">Clique aqui para ler a documentação<a/>
 
