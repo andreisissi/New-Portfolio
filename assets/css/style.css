@@ -41,21 +41,20 @@ body {
 
 .profileSection__imgContainer {
    position: relative;
-   background: linear-gradient(rgba(7, 19, 7, 0.076), #ffffff1f);
-   width: 15rem;
-   height: 17rem;
+   width: 20rem;
+   height: 21.5rem;
    z-index: -1;
    margin: auto;
+
 }
 
 .profileSection__imgContainer img {
    position: relative;
-   width: 15rem;
-   margin-top: 2rem;
+   width: 20rem;
 }
 
 .profileSection__apresentacaoContainer {
-   margin: 5rem 0 5rem;
+   margin: 3rem 0 5rem;
    text-align: center;
 }
 
