@@ -41,11 +41,12 @@ body {
 
 .profileSection__imgContainer {
    position: relative;
+   display: flex;
+   flex-wrap: wrap;
    width: 20rem;
    height: 21.5rem;
    z-index: -1;
    margin: auto;
-
 }
 
 .profileSection__imgContainer img {
@@ -79,6 +80,11 @@ body {
    border-bottom: 3px solid var(--border-color);
    padding-bottom: 10px;
    letter-spacing: 5px;
+}
+
+.hide {
+   visibility: hidden;
+   height: 10px;
 }
 
 .profileSection__apresentacaoContainer a:hover,
